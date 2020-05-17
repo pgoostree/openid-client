@@ -6,9 +6,9 @@ namespace OpenIDClient
     public class Context
     {
         public Context(
-            string clientId, 
-            string clientSecret, 
-            string accessTokenUrl, 
+            string clientId,
+            string clientSecret,
+            string accessTokenUrl,
             string scope)
         {
             if (string.IsNullOrEmpty(clientId))
@@ -31,7 +31,7 @@ namespace OpenIDClient
             AccessTokenUrl = accessTokenUrl;
             Scope = scope;
         }
-        
+
         /// <summary>
         ///     The client identifier issued to the client during the application registration process.
         /// </summary>

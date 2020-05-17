@@ -20,7 +20,8 @@ namespace OpenIDClient.UnitTests
             _accessTokenUrl,
             _scope);
 
-        [Fact(DisplayName = "OpenIDClient POST request with the Authorization header to Basic Authorization values provided in Context.")]
+        [Fact(DisplayName =
+            "OpenIDClient POST request with the Authorization header to Basic Authorization values provided in Context.")]
         public async Task Fact()
         {
             var client = new OpenIDClient(OIDCUemContext);
