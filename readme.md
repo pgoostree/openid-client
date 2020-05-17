@@ -10,13 +10,13 @@ The library is organized as follows:
    * `OpenIDClient.UnitTests`: unit test driver targeting NetCore 3.1.
 
 ### Build
-make build
+   * make build
 
 ### Test
-make test
+   * make test
 
 ### Pack
-make pack
+   * make pack
 
 ### Client Usage 
 
